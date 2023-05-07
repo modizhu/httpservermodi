@@ -4,9 +4,9 @@
   "description": "little tiers",
   "main": "http_server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
     "build": "npm install",
-    "start": "node http_server.js"
+    "start": "node http_server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
    "engines": {
     "node": "18.x"
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/kogsio/littletiers#readme",
   "dependencies": {
-    "@faker-js/faker": "^7.2.0",
+    "@faker-js/faker": "^7.6.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "faker": "^5.1.0",
